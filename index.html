@@ -100,26 +100,10 @@ function check_form()
     var password2=myobj1.password1;
      console.log(username2);
     console.log(password2);
-     //console.log(username1);
-    /*var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function() {
-  if (this.readyState == 4 && this.status == 200) {
-    var dataks = JSON.parse(this.responseText);
-      console.log("jhdsjfh")
-   // document.getElementById("demo").innerHTML = myObj.name;
-      
-  }
-};
-xmlhttp.open("GET", "data.json", true);
-xmlhttp.send();
     
-    var username3=dataks.username1;
-    var password3=dataks.password1;
-    //console.log(username3);*/
  if(name==username2 && pass==password2)
  {
      console.log(name);
-     //console.log(username1);
   alert("SuccessFully Logged In");
   window.open('https://vtop.vit.ac.in/vtop/initialProcess');
   document.getElementById("name").value="";
@@ -154,10 +138,7 @@ xmlhttp.send();
     document.getElementById("name").disabled=true;
     document.getElementById("pass").disabled=true;
     document.getElementById("form1").disabled=true;
-//       setInterval(function() {
-//            document.getElementById("clickButton").click();
-//        }, 5000);
-//        
+
  
    }
   }
