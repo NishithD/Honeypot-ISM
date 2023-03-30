@@ -15,7 +15,7 @@ else:
 
 img1 = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 
-directory = r"C:/Users/smarty/Desktop/"
+directory = r"C:/Users/nishi/Desktop"
 os.chdir(directory)
 print(os.listdir(directory)) 
 filename = 'Intruder.jpg'
